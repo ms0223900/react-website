@@ -1,0 +1,152 @@
+/* CSS Reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: inherit;
+}
+
+
+:root {
+    --color-white: rgba(255,255,255,0.6);
+    --color-light-white: #eee;
+    --color-tomato: rgba(0,0,0,0.2);
+    --color-purple-transparent: rgba(88, 24, 69, .3);
+    --color-pink-transparent: rgba(216, 14, 91, .3);
+    --color-orange: #ff3c00;
+    --color-light-black: #222;
+    --color-black: #000;
+    --shadow: rgba(0, 0, 0, .4);
+}
+
+.app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+  height: 105vh;
+width: 31%;
+    box-shadow: 0 2rem 4rem var(--shadow);
+    background-image: url('01.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+@media screen and (max-width: 1280px) {
+    .calculator {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .calculator {
+        width: 80%;
+    }
+}
+
+
+.screen {
+    height: 25vh;
+    width: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+
+    color: var(--color-black);
+    background-color: var(--color-tomato);
+}
+
+.computation-screen {
+    height: 6vh;
+    font-size: 2.5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.result-screen {
+    height: 19vh;
+    font-size: 8rem;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.keypanel {
+    height: 55vh;
+    width: 100%;
+}
+
+.keypanel__row {
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.btn {
+    width: 25%;
+    height: 100%;
+    font-size: 3rem;
+    font-family: inherit;
+    background-color: var(--color-white);
+    border: 1px solid transparent;
+    outline: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .2s;
+}
+
+.btn:hover {
+    color: var(--color-light-white);
+    background-color: var(--color-tomato);
+}
+
+.btn:active {
+    transform: scale(.95);
+}
+
+.btn--large {
+    width: 50%;
+    color: var(--color-light-white);
+    background-color: var(--color-tomato);
+}
+
+.btn--large:hover {
+    background-color: var(--color-light-white);
+    color: var(--color-tomato);
+}
+
+.btn--primary {
+    color: var(--color-tomato);
+}
+
+.btn--operator {
+    color: var(--color-orange);
+}
