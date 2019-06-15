@@ -1,18 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 class Header extends React.Component {
 	render() {
 		return (
 			<div className="header">
 				<nav>
-					<div id="logo">
-						<a href="javascript::">
-							<img src="assets/logo.png" alt="logo" />
-						</a>
-					</div>
+					<Link to="/">
+						<div id="logo">
+							<a href="javascript::">
+								<img src="assets/logo.png" alt="logo" />
+							</a>
+						</div>
+					</Link>
 					<ul>
-						<li><a href="">会社概要</a></li>
-						<li><a href="">お知らせ＆ブログ</a></li>
+						<Link to="/About">
+							<li><a href="">会社概要</a></li>
+						</Link>
+						<Link to="/Intro">
+							<li><a href="">お知らせ＆ブログ</a></li>
+						</Link>
 						<li><a href="">イベントカレンダー</a></li>
 						<li><a href="">ZEH実績公表</a></li>
 						<li><a href="">採用情報</a></li>
