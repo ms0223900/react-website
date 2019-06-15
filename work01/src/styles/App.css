@@ -238,3 +238,32 @@ nav ul li a::before{
   width: 348px;
   height: 34px;
 }
+.global-nav ul{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+.global-nav ul li{
+  display: flex;
+  align-items: center;
+  background: url(https://e-hakuai.com/img/base/global-nav-dots.png) left bottom 30px/3px 9px no-repeat;
+  height: 100%;
+  padding: 15px 10px 25px;
+  position: relative;
+}
+.global-nav ul li a{
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    color: #79b78c;
+    transition: background-color 200ms ease;
+    text-decoration: none;
+}
