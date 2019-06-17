@@ -31,6 +31,7 @@ class Home extends React.Component {
 						</div>
 					</section>
 					<section id="main-content">
+
 						<div className="banner">
 							<div className="col-12">
 								<a href="">
@@ -38,12 +39,15 @@ class Home extends React.Component {
 								</a>
 							</div>
 						</div>
+
 						<div className="News">
 							<div className="col-3">
+								
 							</div>
 							<div className="col-9">
 							</div>
 						</div>
+
 					</section>
 				</div>
 			</main>
