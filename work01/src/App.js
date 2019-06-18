@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from './components/Header';
-import Home from './components/Home';
 import About from './components/About';
 import Intro from './components/Intro';
+import Home from './components/Home/index'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './styles/App.css';
 
