@@ -139,9 +139,92 @@ class Home extends React.Component {
 							</div>
 
 							<div className="info-lists">
+ 								<ul>
+									<li>
+										<div className="data">2021.93.17</div>
+										<div className="tag">施工狀態</div>
+										<p>早良区四箇Ｍ様邸の施工状況：クロス工事③</p>
+									</li>
+									<li>
+										<div className="data">2021.93.17</div>
+										<div className="tag">施工狀態</div>
+										<p>早良区四箇Ｍ様邸の施工状況：クロス工事③</p>
+									</li>
+									<li>
+										<div className="data">2021.93.17</div>
+										<div className="tag">施工狀態</div>
+										<p>早良区四箇Ｍ様邸の施工状況：クロス工事③</p>
+									</li>
+									<li>
+										<div className="data">2021.93.17</div>
+										<div className="tag">施工狀態</div>
+										<p>早良区四箇Ｍ様邸の施工状況：クロス工事③</p>
+									</li>
+									<li>
+										<div className="data">2021.93.17</div>
+										<div className="tag">施工狀態</div>
+										<p>早良区四箇Ｍ様邸の施工状況：クロス工事③</p>
+									</li>
+								</ul>
+							</div>
 
+							<div className="banner-items">
+								<div className="col-12">
+									<img src="" alt="" />
+								</div>
+								<div className="col-12">
+									<div className="col-6">
+										<img src="" alt="" />
+									</div>
+									<div className="col-6">
+										<img src="" alt="" />
+									</div>
+								</div>
 							</div>
 						</div>
+					</section>
+					<section id="points">
+						<p>point</p>
+						<h2>HAKUAI的家</h2>
+						<ul className="item">
+							<li className="col-4">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</li>
+							<li className="col-4">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</li>
+							<li className="col-4">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</li>
+						</ul>
+						<ul className="item">
+							<li className="col-3">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</li>
+							<li className="col-3">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</li>
+							<li className="col-3">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</li>
+							<li className="col-3">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</li>
+						</ul>
 					</section>
 				</div>
 			</main>
