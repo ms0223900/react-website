@@ -3,6 +3,7 @@ import React from 'react';
 class Home extends React.Component {
 	render() {
 		return (
+
 			<main>
 				<div id="content">
 					<section id="hero">
@@ -226,8 +227,234 @@ class Home extends React.Component {
 							</li>
 						</ul>
 					</section>
+					<section id="menu">
+						<div className="menu-intro">
+							<h2>
+								<span>MENU</span>
+								<img src="" alt="" />
+							</h2>
+							<p>
+								注文住宅、ログハウス、リフォームなど、快適な住まいを実現するために、博愛ではお客様のご要望にお応えする様々なメニューをご用意しています。
+							</p>
+						</div>
+						<div className="menu-items">
+							<div className="col-4">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</div>
+							<div className="col-4">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</div>
+							<div className="col-4">
+								<a href="">
+									<img src="" alt="" />
+								</a>
+							</div>
+						</div>
+					</section>
+					<section id="paper">
+						<div className="col-12">
+							<div className="title">
+								<div>イベント情報</div>
+								<a href="" class="view-btn">ALL VIEW</a>
+							</div>
+							<div className="content">
+								<a className="col-6">
+									<img src="" alt="" />
+									<div className="box">
+										<div className="date">
+											2019.03.21<span>完成見學會</span>
+										</div>
+										<p>
+											6月29日・30日　早良区のモダン×趣味の家　完成内覧会
+											<span>預約制</span>
+											<span>New</span>
+										</p>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div className="col-12">
+							<div className="col-6">
+								<div className="title">
+									<div>イベント情報</div>
+									<a href="" class="view-btn">ALL VIEW</a>
+								</div>
+								<div className="content">
+									<a className="item">
+										<img src="" alt="" />
+										<div className="box">
+											<div className="date">
+												2019.03.21<span>完成見學會</span>
+											</div>
+											<p>
+												6月29日・30日　早良区のモダン×趣味の家　完成内覧会
+												<span>預約制</span>
+												<span>New</span>
+											</p>
+										</div>
+									</a>
+									<a className="item">
+										<img src="" alt="" />
+										<div className="box">
+											<div className="date">
+												2019.03.21<span>完成見學會</span>
+											</div>
+											<p>
+												6月29日・30日　早良区のモダン×趣味の家　完成内覧会
+												<span>預約制</span>
+												<span>New</span>
+											</p>
+										</div>
+									</a>
+									<a className="item">
+										<img src="" alt="" />
+										<div className="box">
+											<div className="date">
+												2019.03.21<span>完成見學會</span>
+											</div>
+											<p>
+												6月29日・30日　早良区のモダン×趣味の家　完成内覧会
+												<span>預約制</span>
+												<span>New</span>
+											</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div className="col-6">
+								<div className="title">
+									<div>イベント情報</div>
+									<a href="" class="view-btn">ALL VIEW</a>
+								</div>
+								<div className="content">
+									<a className="item">
+										<img src="" alt="" />
+										<div className="box">
+											<div className="date">
+												2019.03.21<span>完成見學會</span>
+											</div>
+											<p>
+												6月29日・30日　早良区のモダン×趣味の家　完成内覧会
+												<span>預約制</span>
+												<span>New</span>
+											</p>
+										</div>
+									</a>
+									<a className="item">
+										<img src="" alt="" />
+										<div className="box">
+											<div className="date">
+												2019.03.21<span>完成見學會</span>
+											</div>
+											<p>
+												6月29日・30日　早良区のモダン×趣味の家　完成内覧会
+												<span>預約制</span>
+												<span>New</span>
+											</p>
+										</div>
+									</a>
+									<a className="item">
+										<img src="" alt="" />
+										<div className="box">
+											<div className="date">
+												2019.03.21<span>完成見學會</span>
+											</div>
+											<p>
+												6月29日・30日　早良区のモダン×趣味の家　完成内覧会
+												<span>預約制</span>
+												<span>New</span>
+											</p>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section id="ig-media">
+						<h2>
+							<img src="" alt="INSTAGRAM" />
+						</h2>
+						<div className="ig-list">
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+							<div className="col-2"><img src="" alt="" /></div>
+						</div>
+						<div className="youtube">
+							<iframe>youtube</iframe>
+							<h4>博愛の注文住宅について</h4>
+							<p>福岡県内全域で注文住宅を手がけています。</p>
+							<p>無垢を使った自然素材にこだわり、家族が快適に過ごせる家づくりを、お客様と一緒に叶えていきます。</p>
+						</div>
+					</section>
 				</div>
 			</main>
+
+			<footer>
+				<div className="container">
+					<div className="footer-title">
+						<img src="" alt="" />
+					</div>
+					<div className="col-6">
+						<p>
+							どんな小さなお悩み・ご相談でも構いません！
+							まずはお気軽にお問合せください。
+						</p>
+						<div className="item">
+							<a href="">
+								<div>
+									<img src="" alt="" />
+									<p>adaafeef:0120-605-891</p>
+								</div>
+								<div>
+									<a href="">電話對英時間</a>
+									<p>營業時間：</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div className="col-6">
+						<a href="" class="footer-btn">資料請求</a>
+						<a href="" class="footer-btn">間學會</a>
+					</div>
+				</div>
+
+				<div className="footer2">
+					<div id="logo">
+						<img src="" alt="" />
+					</div>
+					<div className="address">
+						<p>〒812-0016</p>
+						<p>福岡県福岡市博多区博多駅南5-8-5　K-2ビル202号室</p>
+						<p>092-292-0571　|　info@e-hakuai.com</p>
+					</div>
+					<div className="media">
+						<ul>
+							<li>fb</li>
+							<li>ig</li>
+							<li>yt</li>
+							<li>camera</li>
+						</ul>
+						<ul>
+							<li>サイトマップ</li>
+							<li>プライバシーポリシー</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+			<div className="copyright">Copyright ©  All Rights Reserved.</div>
 		);
 	}
 }
