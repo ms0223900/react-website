@@ -1,30 +1,28 @@
-import React from 'react'
-import Banner from './banner'
-import MainContent from './mainContent'
-import Ponits from './points'
-import Menu from './menu'
-import Paper from './paper'
-import Ig from './IG'
-import Footers from './footer'
+import React from 'react';
+import Banner from './banner';
+import MainContent from './mainContent';
+import Ponits from './points';
+import Menu from './menu';
+import Paper from './paper';
+import Ig from './IG';
+import Footers from './footer';
 
 class Index extends React.Component {
 	render() {
 		return (
-			<div>
+			<React.Fragment>
 				<main>
 					<div id="content">
-	          <Banner />
-	          <MainContent />
+						<Banner />
+						<MainContent />
 						<Ponits />
-						<Menu/>
-						<Paper/>
-						<Ig/>
+						<Menu />
+						<Paper />
+						<Ig />
 					</div>
 				</main>
-				<Footers/>
-			</div>
-
-
+				<Footers />
+			</React.Fragment>
 		);
 	}
 }
