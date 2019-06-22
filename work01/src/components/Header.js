@@ -29,9 +29,11 @@ class Header extends React.Component {
 								<a href="">イベントカレンダー</a>
 							</li>
 						</Link>
-						<li>
-							<a href="">ZEH実績公表</a>
-						</li>
+						<Link to="/Infor1">
+							<li>
+								<a href="">ZEH実績公表</a>
+							</li>
+						</Link>
 						<li>
 							<a href="">採用情報</a>
 						</li>
