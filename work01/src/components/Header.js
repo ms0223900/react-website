@@ -34,9 +34,11 @@ class Header extends React.Component {
 								<a href="">ZEH実績公表</a>
 							</li>
 						</Link>
-						<li>
-							<a href="">採用情報</a>
-						</li>
+						<Link to="/Jobs">
+							<li>
+								<a href="">採用情報</a>
+							</li>
+						</Link>
 					</ul>
 				</nav>
 				<div className="global-nav">
