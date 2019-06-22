@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 class Header extends React.Component {
 	render() {
 		return (
@@ -16,24 +15,48 @@ class Header extends React.Component {
 					</Link>
 					<ul>
 						<Link to="/About">
-							<li><a href="">会社概要</a></li>
+							<li>
+								<a href="">会社概要</a>
+							</li>
 						</Link>
 						<Link to="/Intro">
-							<li><a href="">お知らせ＆ブログ</a></li>
+							<li>
+								<a href="">お知らせ＆ブログ</a>
+							</li>
 						</Link>
-						<li><a href="">イベントカレンダー</a></li>
-						<li><a href="">ZEH実績公表</a></li>
-						<li><a href="">採用情報</a></li>
+						<Link to="/Calendar">
+							<li>
+								<a href="">イベントカレンダー</a>
+							</li>
+						</Link>
+						<li>
+							<a href="">ZEH実績公表</a>
+						</li>
+						<li>
+							<a href="">採用情報</a>
+						</li>
 					</ul>
 				</nav>
 				<div className="global-nav">
 					<ul>
-						<li><a href="">ご紹介され続ける理由</a></li>
-						<li><a href="">建築事例</a></li>
-						<li><a href="">お客様の声</a></li>
-						<li><a href="">モデルハウス</a></li>
-						<li><a href="">HAKUAIの家づくり</a></li>
-						<li><a href="">家づくりのメニュー</a></li>
+						<li>
+							<a href="">ご紹介され続ける理由</a>
+						</li>
+						<li>
+							<a href="">建築事例</a>
+						</li>
+						<li>
+							<a href="">お客様の声</a>
+						</li>
+						<li>
+							<a href="">モデルハウス</a>
+						</li>
+						<li>
+							<a href="">HAKUAIの家づくり</a>
+						</li>
+						<li>
+							<a href="">家づくりのメニュー</a>
+						</li>
 					</ul>
 				</div>
 				<div className="fixed-wrap">
