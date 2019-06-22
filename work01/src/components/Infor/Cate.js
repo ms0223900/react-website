@@ -12,7 +12,7 @@ export const InforLists = ({ className1 = '',className2 = '',link = '',imgSrc = 
   <article className={className1}>
      <a className={className2} href={link}>
       <figure className="thumb">
-        <img src={ imgSrc } width="90" height="90" alt="サムネイル">
+        <img src={ imgSrc } width="90" height="90" alt="サムネイル"/>
       </figure>
       <div className="inner">
         <div className="sub-info">
