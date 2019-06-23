@@ -32,6 +32,68 @@
     padding-right: 20px;
 }
 
+.News .works-title {
+    font-family: "de-walpergens-pica";
+    letter-spacing: .3em;
+    line-height: 1;
+    font-size: 90%;
+}
+
+.News .news-solgan {
+    padding-top: 20px;
+}
+
+.News .news-solgan img {
+    width: 187px;
+    height: 119.5px;
+    max-width: auto;
+    vertical-align: bottom;
+}
+
+.News .tt1 {
+    position: relative;
+}
+
+.News .tt1::after {
+    content: "";
+    background: url(https://e-hakuai.com/img/top/sec1-ttl-illust.png) 0 0/64px 43px no-repeat;
+    width: 64px;
+    height: 43px;
+    position: absolute;
+    top: -11px;
+    left: 110px;
+    z-index: 1;
+}
+
+.News .tt1+p {
+    padding-top: 50px;
+    line-height: 1.68;
+}
+
+.more-btn {
+    margin-top: 40px;
+}
+
+.more-btn a {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    font-family: "a-otf-midashi-go-mb31-pr6n";
+    border-radius: 3px;
+    padding: 15px;
+    padding-right: 40px;
+    background-color: #ffd147;
+    background-image: url(https://e-hakuai.com/img/base/btn-arrow-black.png);
+    background-position: right 20px center;
+    background-size: 12px 5px;
+    background-repeat: no-repeat;
+    line-height: 1;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 200ms ease;
+}
+
 .News .col-9 {
     flex: 0 0 74.9%;
     max-width: 74.9%;
