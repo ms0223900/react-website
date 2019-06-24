@@ -27,9 +27,21 @@ export const Article = ({ imgSrc }) => {
 	);
 };
 
+const datas = [
+	{
+		date: 'joyce',
+		tag: '180',
+		title: 'female'
+	},
+	{
+		date: 'joyce',
+		tag: '180',
+		title: 'female'
+	}
+];
 //info-list component
 export const InfoList = ({ info }) => {
-	const { date = '2021.93.17', tag = '施工狀態', title = '早良区四箇Ｍ様邸の施工状況：クロス工事③' } = info;
+	const { date, tag, title } = info;
 	return (
 		<li>
 			<div className="data">{date}</div>
@@ -46,66 +58,60 @@ export default () => {
 				<div className="col-12">
 					<a href="">
 						<img src="https://e-hakuai.com/img/top/sec1-bnr.jpg" alt="banner" />
-					</a>
-				</div>
+					</a>{' '}
+				</div>{' '}
 			</div>
-
 			<div className="News">
 				<div className="col-3">
 					<div className="tt1">
-						<p className="works-title">WORKS</p>
+						<p className="works-title"> WORKS </p>{' '}
 						<h2 className="news-solgan">
 							<img src="https://e-hakuai.com/img/top/sec1-ttl.png" alt="" />
-						</h2>
+						</h2>{' '}
 					</div>
-
 					<p>
-						<div>博愛がこれまでに</div>
-						<div>手掛けてきた建築事例です。</div>
+						<div> 博愛がこれまでに </div> <div> 手掛けてきた建築事例です。 </div>{' '}
 					</p>
-
 					<div className="more-btn">
-						<a href="">建築事例をもっと見る</a>
-					</div>
-				</div>
-				<div className="col-9">{articleImages.map((img) => <Article imgSrc={img} />)}</div>
+						<a href=""> 建築事例をもっと見る </a>{' '}
+					</div>{' '}
+				</div>{' '}
+				<div className="col-9"> {articleImages.map((img) => <Article imgSrc={img} />)}</div>
 			</div>
-
 			<div className="Information">
 				<div className="info-title">
-					<h2>Information</h2>
+					<h2> Information </h2>{' '}
 					<a class="view-btn" href="">
-						ALL VIEW
-					</a>
-				</div>
+						ALL VIEW{' '}
+					</a>{' '}
+				</div>{' '}
 				<div className="info-items">
 					<ul>
+						{' '}
 						{infoItems.map((text, index) => (
 							<li key={index}>
-								<a href="#">{text}</a>
+								<a href="#"> {text} </a>{' '}
 							</li>
-						))}
-					</ul>
+						))}{' '}
+					</ul>{' '}
 				</div>
-
 				<div className="info-lists">
-					<ul>{[ ...Array(5).keys() ].map((arr) => <InfoList key={arr} info={{}} />)}</ul>
+					<ul> {datas.map((arr) => <InfoList key={arr} info={{}} />)}</ul>
 				</div>
-
 				<div className="banner-items">
 					<div className="col-12">
 						<img src="" alt="" />
-					</div>
+					</div>{' '}
 					<div className="col-12">
 						<div className="col-6">
 							<img src="" alt="" />
-						</div>
+						</div>{' '}
 						<div className="col-6">
 							<img src="" alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
+						</div>{' '}
+					</div>{' '}
+				</div>{' '}
+			</div>{' '}
 		</section>
 	);
 };
