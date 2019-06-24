@@ -13,6 +13,7 @@ const articleImages = [
 	'https://e-hakuai.com/wp-content/uploads/2019/04/hakuai-001-425x285.jpg'
 ];
 
+const infoItems = [ 'すべてのお知らせ', 'オフィシャルブログ', '施工状況', 'イベント情報', '土地情報', 'その他' ];
 //article component
 export const Article = ({ imgSrc }) => {
 	return (
@@ -79,9 +80,9 @@ export default () => {
 				</div>
 				<div className="info-items">
 					<ul>
-						{[ ...Array(5).keys() ].map((arr) => (
-							<li key={arr}>
-								<a href="#">afadf</a>
+						{infoItems.map((text, index) => (
+							<li key={index}>
+								<a href="#">{text}</a>
 							</li>
 						))}
 					</ul>
