@@ -27,7 +27,7 @@ export const Article = ({ imgSrc }) => {
 	);
 };
 
-const datas = [
+const data = [
 	{
 		date: 'joyce',
 		tag: '180',
