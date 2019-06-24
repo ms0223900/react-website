@@ -1,11 +1,7 @@
 import React from 'react';
 import Banner from './banner';
-import MainContent from './mainContent';
-import Ponits from './points';
-import Menu from './menu';
-import Paper from './paper';
-import Ig from './IG';
-import Footers from './footer';
+import DateCalendar from './date';
+import Footers from '../Home/footer';
 
 class Index extends React.Component {
 	render() {
@@ -14,11 +10,7 @@ class Index extends React.Component {
 				<main>
 					<div id="content">
 						<Banner />
-						<MainContent />
-						<Ponits />
-						<Menu />
-						<Paper />
-						<Ig />
+						<DateCalendar />
 					</div>
 				</main>
 				<Footers />
